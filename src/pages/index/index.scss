@@ -1,0 +1,46 @@
+.t1 {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 36px;
+    color: #e50000;
+}
+
+.t2 {
+    padding: 30px;
+    font-size: 24px;
+    color: #ee0000;
+    >view {
+        margin-bottom: 10px;
+    }
+    >taro-view-core {
+        margin-bottom: 10px;
+    }
+}
+
+.navigator {
+    font-size: 28px;
+    margin: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border: #e5e5e5 solid 1px;
+    height: auto;
+    width: auto;
+    display: block;
+    .title {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        border-bottom: #e5e5e5 solid 1px;
+        color: #333;
+        font-size: 32px;
+
+        .link {
+            color: #09f;
+            float: right;
+        }
+    }
+
+    .content {
+        line-height: 48px;
+        color: #999;
+    }
+}
